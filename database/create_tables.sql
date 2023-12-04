@@ -12,3 +12,16 @@ CREATE TABLE ColorPalette (
     color_hex TEXT
 );
 
+-- second subject matter table
+CREATE TABLE SubjectMatter (
+    EPISODE VARCHAR(50) PRIMARY KEY,
+    TITLE VARCHAR(255)
+    -- i think i need to add more columns for sure
+);
+
+-- third episode dates table
+CREATE TABLE EpisodeDates (
+    EPISODE VARCHAR(50) PRIMARY KEY,
+    DATE VARCHAR(50)
+    -- i need to add more columns to this one
+);
